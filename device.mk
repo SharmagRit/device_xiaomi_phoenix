@@ -1,4 +1,4 @@
-#
+    #
 # Copyright (C) 2020 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
@@ -367,6 +367,10 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
+
+# Notch style overlay
+PRODUCT_PACKAGES += \
+    NotchNoFillOverlay
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
