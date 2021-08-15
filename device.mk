@@ -154,7 +154,12 @@ PRODUCT_PACKAGES += \
     POCOParts
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/parts/init.xiaomiparts.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.xiaomiparts.rc \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-parts.xml
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.lcd.hbm_mode=0 \
+    persist.lcd.cabc_mode=1
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
