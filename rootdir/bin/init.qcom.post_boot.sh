@@ -306,7 +306,7 @@ function enable_memory_features()
 
       # Configure default schedTune value for foreground/top-app
       echo 1 > /dev/stune/foreground/schedtune.prefer_idle
-      echo 10 > /dev/stune/top-app/schedtune.boost
+      echo 1 > /dev/stune/top-app/schedtune.boost
       echo 1 > /dev/stune/top-app/schedtune.prefer_idle
 
       # Set Memory parameters
@@ -408,7 +408,7 @@ function enable_memory_features()
             echo 100 > /sys/module/cpu_boost/parameters/powerkey_input_boost_ms
 
 	    echo 1 > /dev/stune/foreground/schedtune.prefer_idle
-	    echo 10 > /dev/stune/top-app/schedtune.boost
+	    echo 1 > /dev/stune/top-app/schedtune.boost
 	    echo 1 > /dev/stune/top-app/schedtune.prefer_idle
 
             # Set Memory parameters
