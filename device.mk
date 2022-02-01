@@ -406,6 +406,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
+    CarrierConfigOverlayPhoenix \
     DialerOverlayPhoenix \
     FrameworksResOverlayPhoenix \
     SettingsOverlayPhoenix \
