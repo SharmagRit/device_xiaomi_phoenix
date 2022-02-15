@@ -381,7 +381,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     TetheringConfigOverlayPhoenix \
     WifiOverlayPhoenix
 
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Overlays - override vendor ones
