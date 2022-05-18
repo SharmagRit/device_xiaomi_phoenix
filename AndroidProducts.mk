@@ -5,4 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_phoenix.mk
+    $(LOCAL_DIR)/blaze_phoenix.mk
+
+COMMON_LUNCH_CHOICES := \
+    blaze_phoenix-user \
+    blaze_phoenix-userdebug \
+    blaze_phoenix-eng
+
